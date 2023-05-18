@@ -33,6 +33,7 @@ import (
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/dynamic_forward_proxy/v3"
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/ext_authz/v3"
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/local_ratelimit/v3"
+	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/oauth2/v3"
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/ratelimit/v3"
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/http/set_metadata/v3"
 	_ "github.com/cilium/proxy/go/envoy/extensions/filters/network/connection_limit/v3"
