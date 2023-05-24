@@ -234,7 +234,9 @@ github.com/cilium/proxy/go/envoy/extensions/common/ratelimit/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/common/fault/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/dynamic_forward_proxy/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/ext_authz/v3
+github.com/cilium/proxy/go/envoy/extensions/filters/http/jwt_authn/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/local_ratelimit/v3
+github.com/cilium/proxy/go/envoy/extensions/filters/http/oauth2/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/ratelimit/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/router/v3
 github.com/cilium/proxy/go/envoy/extensions/filters/http/set_metadata/v3
